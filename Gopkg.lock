@@ -210,6 +210,17 @@
   version = "1.1.4"
 
 [[projects]]
+  digest = "1:c52b10fbc37ee3931f3719d00bdb3e2d06431943ce1571669f15fdaa57d21987"
+  name = "github.com/maorfr/skbn"
+  packages = [
+    "pkg/skbn",
+    "pkg/utils",
+  ]
+  pruneopts = "UT"
+  revision = "326c955b20ddb7c6ac46cb612551a9d6cece213f"
+  version = "0.6.0"
+
+[[projects]]
   digest = "1:33422d238f147d247752996a26574ac48dcf472976eda7f5134015f06bf16563"
   name = "github.com/modern-go/concurrent"
   packages = ["."]
@@ -659,6 +670,8 @@
     "github.com/aws/aws-sdk-go/service/s3",
     "github.com/aws/aws-sdk-go/service/s3/s3manager",
     "github.com/djherbis/buffer",
+    "github.com/maorfr/skbn/pkg/skbn",
+    "github.com/maorfr/skbn/pkg/utils",
     "github.com/spf13/cobra",
     "google.golang.org/api/iterator",
     "gopkg.in/djherbis/nio.v2",
